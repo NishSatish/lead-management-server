@@ -4,7 +4,8 @@
   "description": "Web app for lead management",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "sample_case": "mocha test/case.test.js",
+    "test": "mocha test/app.test.js",
     "start": "node index.js"
   },
   "repository": {
@@ -21,8 +22,11 @@
     "chai": "^4.2.0",
     "express": "^4.16.4",
     "firebaseui": "^3.4.1",
-    "mocha": "^5.2.0",
+    "npm-check-updates": "^2.14.2",
     "socket.io": "^2.1.1"
   },
-  "homepage": "https://github.com/jboss-outreach/lead-management-server#readme"
+  "homepage": "https://github.com/jboss-outreach/lead-management-server#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
